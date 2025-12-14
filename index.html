@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalStore | Produtos Digitais Premium</title>
+
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header">
+        <h1 class="logo">Digital<span>Store</span></h1>
+
+        <nav id="nav">
+            <ul class="nav-links">
+                <li><a href="#" data-page="home" class="active">Home</a></li>
+                <li><a href="#" data-page="sobre">Sobre</a></li>
+                <li><a href="#" data-page="produtos">Produtos</a></li>
+                <li><a href="#" data-page="contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+    </div>
+</header>
+
+<main id="app">
+
+    <!-- HOME -->
+    <section class="page active" id="home">
+        <div class="hero">
+            <div class="hero-content animate">
+                <h2>Conhecimento Digital que Gera Resultados</h2>
+                <p>eBooks, cursos e sistemas digitais para impulsionar seu crescimento.</p>
+                <button class="btn-primary">Explorar Produtos</button>
+            </div>
+        </div>
+
+        <section class="section">
+            <h3 class="section-title animate">Produtos em Destaque</h3>
+
+            <div class="cards">
+                <div class="card animate">
+                    <h4>📘 eBook Produtividade</h4>
+                    <p>Guia prático para alta performance.</p>
+                    <span>R$ 29,90</span>
+                    <button class="btn-secondary">Comprar</button>
+                </div>
+
+                <div class="card animate">
+                    <h4>💻 Sistema de Gestão</h4>
+                    <p>Controle seu negócio com eficiência.</p>
+                    <span>R$ 99,90</span>
+                    <button class="btn-secondary">Comprar</button>
+                </div>
+
+                <div class="card animate">
+                    <h4>🎓 Curso Online</h4>
+                    <p>Aprenda tecnologia do zero.</p>
+                    <span>R$ 149,90</span>
+                    <button class="btn-secondary">Comprar</button>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="page" id="sobre">
+        <div class="section">
+            <h3 class="section-title animate">Sobre a DigitalStore</h3>
+            <p class="animate">
+                Somos especializados na venda de produtos digitais de alta qualidade,
+                focados em educação, tecnologia e desenvolvimento pessoal.
+            </p>
+        </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section class="page" id="produtos">
+        <div class="section">
+            <h3 class="section-title animate">Nossa Loja Digital</h3>
+
+            <div class="cards">
+                <div class="card animate">
+                    <h4>📕 eBook Marketing Digital</h4>
+                    <p>Estratégias modernas de vendas online.</p>
+                    <span>R$ 39,90</span>
+                    <button class="btn-secondary">Comprar</button>
+                </div>
+
+                <div class="card animate">
+                    <h4>🎧 Áudio Motivacional</h4>
+                    <p>Foque, execute e vença.</p>
+                    <span>R$ 19,90</span>
+                    <button class="btn-secondary">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="page" id="contato">
+        <div class="section">
+            <h3 class="section-title animate">Entre em Contato</h3>
+
+            <form class="contact-form animate">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button type="submit" class="btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2025 DigitalStore. Todos os direitos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
